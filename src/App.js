@@ -1,6 +1,6 @@
 import React from "react";
 import ExpenseItem from "./components/ExpenseItem";
-import "./index.css";
+import "./components/ExpenseItem.css";
 
 const App = () => {
   const expenses = [
@@ -24,7 +24,7 @@ const App = () => {
     },
     {
       id: "e4",
-      title: "New Desk",
+      title: "Furniture",
       amount: 72.78,
       date: new Date(2021, 8, 1),
     },
